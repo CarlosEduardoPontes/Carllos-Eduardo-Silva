@@ -1,0 +1,22 @@
+
+#include "iostream"
+#include "math.h"
+#include "cstdlib"
+
+using namespace std;
+
+int main() { system("cls");
+
+setlocale(LC_ALL, "Portuguese");
+
+                  double tCel, tFar;
+                  cout << "\n\nQuantos graus Celsius você quer converter em Farenheint ";
+                  cin >> tCel;
+                  
+                  tFar = (9*tCel+160)/5;
+
+                  cout << endl << "\nA temperatura de " << tCel << "graus C"  << "em Farenheint é" << tFar << endl;
+                  
+
+system("pause");
+return 0; }
